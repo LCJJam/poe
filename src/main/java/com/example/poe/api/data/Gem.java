@@ -1,13 +1,13 @@
 package com.example.poe.api.data;
 
 
-public class SkillGem {
+public class Gem {
     private final String name;
     private final String tags;
     private final String eng;
 
 
-    public SkillGem(String name, String tags, String eng){
+    public Gem(String name, String tags, String eng){
         this.name = name;
         this.tags = tags;
         this.eng = eng;
